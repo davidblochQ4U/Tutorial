@@ -138,8 +138,7 @@ Copy and paste the missing code:
 *Make sure you copy and paste the url from MongoDB website and wrote the name and password related to database user you created on MongoLab website.*
 
 
-![MongoDB]
-(https://raw.githubusercontent.com/davidblochQ4U/Tutorial-LoopBack-Heroku-MongoDB/master/mongolab_url.png)
+![MongoDB](https://raw.githubusercontent.com/davidblochQ4U/Tutorial-LoopBack-Heroku-MongoDB/master/mongolab_url.png)
 
 Check in "model-config.json" file that your models are linked to MongoDB:
 
