@@ -193,7 +193,6 @@ Il est possible de retirer un fichier qui avait été ajouté pour être « comm
 ```shell
 $ git reset HEAD -- nom_du_fichier_a_supprimer
 ```
-En cas de problème avec Heroku   
+En cas de problème avec Heroku		
 
-
-$ git add -A --force
+    $ git add -A --force
