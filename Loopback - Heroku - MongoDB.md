@@ -1,6 +1,6 @@
 # Loopback API / Heroku server / Mongo database / Git   
 
-##Requirements
+## Requirements
 --> Install Loopback : 
 
     $ npm install -g loopback-cli
@@ -8,8 +8,8 @@
 --> Heroku account : sign up at <https://signup.heroku.com/?c=70130000001x9jFAAQ>.  
 --> MongoDB account : sign up at <https://mlab.com/signup/>
 
-##Loopback
-###Create Loopback server
+## Loopback
+### Create Loopback server
 Open your cmd.  
 Choise a location for your new application:
 
@@ -30,7 +30,7 @@ Start the serveur :
 Open a web browser, copy and past "local host" adress.
 
 Each time you want to leave the server, press: **Ctrl + c** twice.  
-###Create model
+### Create model
 On your cmd:
 
 
@@ -39,7 +39,7 @@ Follow the instructions : name (*"MyModel"*), model class, properties ...
 Enjoy your local database !
 
 
-##Heroku
+## Heroku
 On your cmd, login Heroku:
 
 
@@ -63,7 +63,7 @@ Inside the folder nammed *"server"*, create a new file called **"datasources.her
         mongo: {url: process.env.MONGO_URL}
     };
 
-##Git
+## Git
 Git allows you to handle your project (further informations: <https://git-scm.com/>).  
 Create a new Git repository (in your cmd):  
 
@@ -108,16 +108,16 @@ Push the local branch to Heroku master branch remote:
 Or go to the link : <http://NameOfMyApp.herokuapp.com/explorer>
 
 
-##Mongo database
-###Create a database
+## Mongo database
+### Create a database
 MongoDB allows you to upload your data.  
 Log on to <https://mlab.com/home>.  
 In MongoDB Deployments section, click on "Create New" button to create a new deployment.  
 Create your database. 
-###Generate a database user
+### Generate a database user
 Click on "Users" and add database user: name (*"MyUserName"*), password (*"MyPassword"*).
 
-###Connect the database to your application
+### Connect the database to your application
 Inside the folder nammed *"server"*, open *"datasources.json"* file.  
 Copy and paste the missing code:
 
