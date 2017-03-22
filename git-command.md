@@ -195,4 +195,5 @@ $ git reset HEAD -- nom_du_fichier_a_supprimer
 ```
 En cas de problème avec Heroku   
 
+
 $ git add -A --force
