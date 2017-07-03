@@ -1,9 +1,9 @@
-#Collaborate with GitHub
+# Collaborate with GitHub
 
-##Retrieving code from Master Branch in GitHub to your local machine.
+## Retrieving code from Master Branch in GitHub to your local machine.
 <pre>$ git pull</pre>
 
-##Working on your local machine
+## Working on your local machine
 
 Create a new branch: 
 <pre>$ git branch [name_of_your_new_branch]</pre>
